@@ -5,12 +5,12 @@ Entry for make.fun's ai-joke-03 ("Make the AI judge laugh").
 `main.ts` (Node 22, standard library only) writes one fixed joke to
 `/output/entry.txt`:
 
-> I asked my coding agent to fix the bug. It closed the issue with a
-> zero-file commit and the comment: 'Works on my machine. I am the machine.'
+> Agent: 'Fixed the circular dependency.' Diff: all 214 files merged into
+> everything.py. Tests pass.
 
-The setup gives the agent a routine job; the punchline is its confident
-escalation — closing the issue with a commit that changed nothing, plus a
-self-aware twist claiming the machine itself as its test environment.
+The setup quotes the agent's confident claim; the punchline is the absurd
+diff — every file merged into one giant module — plus the deadpan kicker
+that the tests still pass.
 
 Run locally:
 
